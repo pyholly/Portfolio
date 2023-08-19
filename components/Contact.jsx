@@ -1,4 +1,8 @@
 import { useState } from "react";
+import { MdMailOutline } from "react-icons/md";
+import { MdOutlineLocationOn } from "react-icons/md";
+import { BsLinkedin } from "react-icons/bs";
+import { BsGithub } from "react-icons/bs";
 
 export const Contact = () => {
   const [name, setName] = useState("");
@@ -37,14 +41,24 @@ export const Contact = () => {
         />
         <button type="submit">Submit!</button>
       </form>
+      <p>
+        <MdMailOutline /> pyhshum@gmail.com
+      </p>
+      <p>
+        <MdOutlineLocationOn /> Portsmouth (willing to relocate)
+      </p>
       <a
         href="https://www.linkedin.com/in/pui-yee-shum-236977274"
         target="_blank"
       >
-        <button>LinkedIn</button>
+        <button>
+          <BsLinkedin />
+        </button>
       </a>
       <a href="https://github.com/pyholly" target="_blank">
-        <button>Github</button>
+        <button>
+          <BsGithub />
+        </button>
       </a>
     </>
   );
