@@ -1,8 +1,9 @@
 export const Home = () => {
   return (
     <>
-      <h1>Welcome!</h1>
-      <h2>This is the homepage</h2>
+      <p>Hi, I'm</p>
+      <h1>Pui Yee Holly Shum</h1>
+      <p>Welcome to my site!</p>
     </>
   );
 };
