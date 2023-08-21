@@ -1,7 +1,10 @@
+import "../src/App.css";
+
 export const Projects = () => {
   return (
-    <>
-      <h2>This is the projects section</h2>
-    </>
+    <section>
+      <h2>My Projects</h2>
+      <article></article>
+    </section>
   );
 };
