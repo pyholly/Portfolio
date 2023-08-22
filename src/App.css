@@ -5,6 +5,14 @@
   text-align: center;
 }
 
+/* Nav */
+a {
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+}
+
+/* Projects */
 img {
  height: 200px;
  width: 200px

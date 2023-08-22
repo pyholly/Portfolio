@@ -8,13 +8,21 @@ import { Contact } from "../components/Contact";
 
 function App() {
   return (
-    <section>
+    <>
       <Nav />
-      <Home />
-      <About />
-      <Projects />
-      <Contact />
-    </section>
+      <section id="Home">
+        <Home />
+      </section>
+      <section id="About">
+        <About />
+      </section>
+      <section id="Projects">
+        <Projects />
+      </section>
+      <section id="Contact">
+        <Contact />
+      </section>
+    </>
   );
 }
 

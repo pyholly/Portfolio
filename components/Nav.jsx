@@ -1,7 +1,10 @@
 export const Nav = () => {
   return (
-    <>
-      <h2>This is the nav section</h2>
-    </>
+    <nav>
+      <a href="#Home">Home</a>
+      <a href="#About">About</a>
+      <a href="#Projects">Projects</a>
+      <a href="#Contact">Contact</a>
+    </nav>
   );
 };
