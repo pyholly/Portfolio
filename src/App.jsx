@@ -1,15 +1,17 @@
 import "./App.css";
-import { Home } from "../components/Home";
-import { About } from "../components/About";
-import { Nav } from "../components/Nav";
-import { Projects } from "../components/Projects";
-import { Contact } from "../components/Contact";
+import { Home } from "./components/Home";
+import { About } from "./components/About";
+import { Nav } from "./components/Nav";
+import { Projects } from "./components/Projects";
+import { Contact } from "./components/Contact";
 
 function App() {
   return (
-    <>
+    <div>
       <Nav />
-      <h1 className="text-3xl font-bold text-center">Hello world!</h1>
+      {/* <h1 className="text-3xl font-bold text-center bg-blue-500 mx-auto">
+        Hello world!
+      </h1> */}
       <section id="Home">
         <Home />
       </section>
@@ -22,7 +24,7 @@ function App() {
       <section id="Contact">
         <Contact />
       </section>
-    </>
+    </div>
   );
 }
 

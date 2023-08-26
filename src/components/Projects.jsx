@@ -1,5 +1,5 @@
-import "../src/App.css";
-import { projectList } from "../assets/projectsList";
+import "../App.css";
+import { projectList } from "../../assets/projectsList";
 
 export const Projects = () => {
   return (
